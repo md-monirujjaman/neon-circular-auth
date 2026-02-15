@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neon-circular-auth</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="ring"></div>
+        <div id="glow-ring" class="ring ring-active clockwise"></div>
+
+        <div class="form-content">
+            <h2 id="title">Login</h2>
+            <form id="auth-form">
+                <div id="login-fields">
+                    <div class="input-box"><input type="email" placeholder="Email" required></div>
+                    <div class="input-box"><input type="password" placeholder="Password" required></div>
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                </div>
+
+                <div id="signup-fields" style="display: none;">
+                    <div class="input-box"><input type="text" placeholder="Full Name"></div>
+                    <div class="input-box"><input type="tel" placeholder="Phone Number"></div>
+                    <div class="input-box"><input type="email" placeholder="Email"></div>
+                    <div class="input-box"><input type="password" placeholder="Password"></div>
+                </div>
+
+                <button type="submit" class="btn" id="main-btn">Login</button>
+            </form>
+            <span class="toggle-btn" id="toggle-text" onclick="toggleMode()">Create account</span>
+        </div>
+    </div>
+<script src="script.js"></script>
+   
+</body>
+</html>
