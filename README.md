@@ -45,4 +45,4 @@ Project-ti download kore chalanor jonno nicher command-ti use koro:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/md-monirujjaman/Modern-Slide-Login-Sign-Up.git](https://github.com/md-monirujjaman/Modern-Slide-Login-Sign-Up.git)
+git clone https://github.com/md-monirujjaman/neon-circular-auth.git
